@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 // view engine
-app.set('views', './src/views');
+app.set('views', './app/src/views');
 app.set('view engine', 'ejs'/*(Now : ejs)*/);
 
 //router
