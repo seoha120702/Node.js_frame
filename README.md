@@ -3,9 +3,6 @@
 ___
 
 ```git
-$ cd app 
-```
-```git
 $ npm install
 ```
 ```git
