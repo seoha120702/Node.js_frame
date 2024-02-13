@@ -1,9 +1,6 @@
 const output = {
    home: (req, res) => {
-        //if you want view engine === ejs
-        res.render('home');
-        /*or
-        res.sendFile('../views/home.html')*/
+        res.sendFile('home.html', {root: './src/views'});
     },
 };
 
