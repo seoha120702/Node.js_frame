@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon ./bin/www.js"
+    "start": "nodemon ./api/www.js"
   },
   "dependencies": {
     "ejs": "^3.1.9",
