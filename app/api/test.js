@@ -2,7 +2,7 @@
 const ctrl = require("./router.ctrl");
 
 router = (req, res) => {
-    res.send("hhhhh")
+    res.status(200).send("hhhhh")
 };
 
 module.exports = router
